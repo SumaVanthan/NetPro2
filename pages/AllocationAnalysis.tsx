@@ -194,7 +194,7 @@ const AllocationAnalysis: React.FC = () => {
                {sortedHoldings.some(s => s.weight > 20) && (
                     <div className="mt-4 bg-red-100 dark:bg-red-500/10 border border-red-200 dark:border-red-500/20 p-3 rounded-lg flex gap-2 items-center">
                         <ShieldAlert size={14} className="text-red-500 dark:text-red-400" />
-                        <span className="text-[10px] text-red-600 dark:text-red-300">High concentration risk detected (>20%)</span>
+                        <span className="text-[10px] text-red-600 dark:text-red-300">High concentration risk detected (&gt;20%)</span>
                     </div>
                )}
           </Card>
